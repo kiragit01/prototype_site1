@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 30px 50px;
+    background-color: rgb(7, 7, 56);
+    border-radius: 1000px;
+    border: 0px;
+    transition: all .7s;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(167, 167, 167);
+    transition: all .7s;
+
+}
